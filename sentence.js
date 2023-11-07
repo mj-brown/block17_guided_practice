@@ -29,10 +29,10 @@ class Sentence {
         return obj;
     }
 };
-const data = //prompt(
-    //'Enter in a sentence',
+const data = prompt(
+    'Enter in a sentence',
     'The cow jumped over the moon'
-//);
+);
 
 const s1 = new Sentence(data);
 console.log(s1.wordCount());
@@ -40,3 +40,4 @@ console.log(s1.hasLetter("Y"));
 console.log(s1.hasLetter('c'));
 console.log(s1.letterCount('e'));
 console.log(s1.letterCount(' '));
+console.log(s1.stats());
